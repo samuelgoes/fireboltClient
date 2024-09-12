@@ -1,6 +1,6 @@
 # Firebolt Client
 
-This repository contains the necessary code to connect any application to the Firebolt platform ([firebolt.io](https://firebolt.io)), an online Data Warehouse. The client is implemented using **Golang** ([golang.org](https://golang.org)) and utilizes the plugin provided by Firebolt for this purpose.
+This repository contains the necessary code to connect any application to the **Firebolt** platform ([firebolt.io](https://firebolt.io)), an online Data Warehouse. The client is implemented using **Golang** ([golang.org](https://golang.org)) and utilizes the plugin provided by Firebolt for this purpose.
 
 ## Components
 
@@ -23,7 +23,7 @@ To work effectively with Firebolt, it's important to thoroughly read the documen
     ```
     > **_Note_**: Firebolt uses specific tags, which users should explore further (e.g., FACT).
 
-- **Engine**: The engine is the search and execution platform. For any operations against databases, it must be running. This can be a drawback for real-time ingestion and querying since running the engine 24/7 can be costly. It's designed for **batch processing** at specific times, making it suitable for data processing and use with BI tools.
+- **Engine**: The engine is the search and execution platform. For any operations against databases, it must be running. This can be a drawback for real-time ingestion and querying since running the engine 24/7 can be costly. It's designed for **batch processing** at specific times, making it suitable for data processing and use with **BI** tools.
 
 ## Functions
 
@@ -84,5 +84,5 @@ fmt.Println("Event ingested successfully")
 ## Conclusions
 My conclusion is that Firebolt works very well as a Data Warehouse and is a highly recommended option due to its pricing and efficiency. However, it may be more suited for technical users rather than business users. While integration is simple, it is not necessarily easy.
 
-Its performance is excellent, very fast, and even the engine startup time is quick compared to competitors. However, if you're looking for a platform for real-time operations, I wouldn't recommend it, as it's primarily designed for batch processes—i.e., ingestion through batch processes and queries via ETLs and BI visualization tools.
+Its performance is excellent, very fast, and even the engine startup time is quick compared to competitors. However, if you're looking for a platform for real-time operations, I wouldn't recommend it, as it's primarily designed for batch processes—i.e., ingestion through batch processes and queries via **ETLs** and **BI** visualization tools.
 
