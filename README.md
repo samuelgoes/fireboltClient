@@ -81,7 +81,7 @@ if err != nil {
 fmt.Println("Event ingested successfully")
 ```
 
-## Conclusiones
+## Conclusions
 My conclusion is that Firebolt works very well as a Data Warehouse and is a highly recommended option due to its pricing and efficiency. However, it may be more suited for technical users rather than business users. While integration is simple, it is not necessarily easy.
 
 Its performance is excellent, very fast, and even the engine startup time is quick compared to competitors. However, if you're looking for a platform for real-time operations, I wouldn't recommend it, as it's primarily designed for batch processes—i.e., ingestion through batch processes and queries via ETLs and BI visualization tools.
